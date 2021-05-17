@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify Room</title>
+    {% load static %}
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="{% static 'style.css' %}" />
+    <link href="https://css.gg/play-button.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="main">
+        <h1> <i class="fa fa-spotify fa_custom fa-1.5x"></i> Spotify House Party</h1>
+        <div id="root" />
+    </div>
+    <script src="{% static 'frontend/main.js' %}"></script>
+</body>
+</html>
